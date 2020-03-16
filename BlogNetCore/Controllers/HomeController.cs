@@ -1,20 +1,46 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using BlogNetCore.Models;
+using DataLayer;
+using DataLayer.Entityes;
+using Microsoft.EntityFrameworkCore;
+using BusinessLayer.Interfaces;
+using BusinessLayer;
 
 namespace BlogNetCore.Controllers
 {
     public class HomeController : Controller
     {
+        //first case about work with context db
+        //private EFDBContext _contex;
+
+        //second case about work with context db
+        //private IDirectorysRepository _dirRep;
+
+        //third case about work with context db
+        private DataManager _dataManager;
+        public HomeController(/*EFDBContext contex, IDirectorysRepository dirRep,*/ DataManager dataManager)
+        {
+           /* _contex = contex;
+            _dirRep = dirRep;*/
+            _dataManager = dataManager;
+        }
+
         public IActionResult Index()
         {
             HelloModel _model = new HelloModel() { HelloMessage = "Kostiantyn" };
-            return View(_model);
+
+            //first case about work with context db
+            //List<Directory> _dirs = _contex.Directory.Include(d => d.Materials).ToList();
+
+            //second case about work with context db
+            //List<Directory> _dirs = _dirRep.GetAllDirectorys().ToList();
+
+            //third case about work with context db
+            List<Directory> _dirs = _dataManager.Directorys.GetAllDirectorys(true).ToList();
+            return View(_dirs);
         }
 
         public IActionResult Privacy()

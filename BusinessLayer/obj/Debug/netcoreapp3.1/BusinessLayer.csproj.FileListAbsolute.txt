@@ -1,0 +1,11 @@
+C:\dev\projects\BlogNetCore\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.deps.json
+C:\dev\projects\BlogNetCore\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.dll
+C:\dev\projects\BlogNetCore\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.pdb
+C:\dev\projects\BlogNetCore\BusinessLayer\bin\Debug\netcoreapp3.1\DataLayer.dll
+C:\dev\projects\BlogNetCore\BusinessLayer\bin\Debug\netcoreapp3.1\DataLayer.pdb
+C:\dev\projects\BlogNetCore\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csprojAssemblyReference.cache
+C:\dev\projects\BlogNetCore\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.AssemblyInfoInputs.cache
+C:\dev\projects\BlogNetCore\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.AssemblyInfo.cs
+C:\dev\projects\BlogNetCore\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csproj.CopyComplete
+C:\dev\projects\BlogNetCore\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.dll
+C:\dev\projects\BlogNetCore\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.pdb

@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BusinessLayer.Interfaces;
+using BusinessLayer.Implementations;
 using DataLayer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -10,6 +12,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using BusinessLayer;
 
 namespace BlogNetCore
 {
@@ -28,6 +31,12 @@ namespace BlogNetCore
             var connection = Configuration.GetConnectionString("DefaultConnection");
 
             services.AddDbContext<EFDBContext>(options => options.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=BlogASPCoreDB;Trusted_Connection=True;MultipleActiveResultSets=true", b => b.MigrationsAssembly("DataLayer")));
+
+            services.AddTransient<IDirectorysRepository, EFDirectorysRepository>();
+            services.AddTransient<IMaterialsRepository, EFMaterialsRepository>();
+
+            services.AddScoped<DataManager>();
+
             //services.AddControllersWithViews();
             services.AddMvc();
         }
