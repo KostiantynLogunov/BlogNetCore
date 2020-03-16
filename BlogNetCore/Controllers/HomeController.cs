@@ -11,16 +11,10 @@ namespace BlogNetCore.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
-
         public IActionResult Index()
         {
-            return View();
+            HelloModel _model = new HelloModel() { HelloMessage = "Kostiantyn" };
+            return View(_model);
         }
 
         public IActionResult Privacy()

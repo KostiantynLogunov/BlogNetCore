@@ -1,0 +1,10 @@
+C:\dev\projects\BlogNetCore\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.deps.json
+C:\dev\projects\BlogNetCore\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.dll
+C:\dev\projects\BlogNetCore\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csprojAssemblyReference.cache
+C:\dev\projects\BlogNetCore\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfoInputs.cache
+C:\dev\projects\BlogNetCore\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfo.cs
+C:\dev\projects\BlogNetCore\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.json
+C:\dev\projects\BlogNetCore\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.dev.json
+C:\dev\projects\BlogNetCore\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.pdb
+C:\dev\projects\BlogNetCore\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.dll
+C:\dev\projects\BlogNetCore\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.pdb
