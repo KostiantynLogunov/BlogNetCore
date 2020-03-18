@@ -1,0 +1,14 @@
+C:\dev\projects\BlogNetCore\PresentationLayer\bin\Debug\netcoreapp3.1\PresentationLayer.deps.json
+C:\dev\projects\BlogNetCore\PresentationLayer\bin\Debug\netcoreapp3.1\PresentationLayer.dll
+C:\dev\projects\BlogNetCore\PresentationLayer\bin\Debug\netcoreapp3.1\PresentationLayer.pdb
+C:\dev\projects\BlogNetCore\PresentationLayer\bin\Debug\netcoreapp3.1\BusinessLayer.dll
+C:\dev\projects\BlogNetCore\PresentationLayer\bin\Debug\netcoreapp3.1\DataLayer.dll
+C:\dev\projects\BlogNetCore\PresentationLayer\bin\Debug\netcoreapp3.1\BusinessLayer.pdb
+C:\dev\projects\BlogNetCore\PresentationLayer\bin\Debug\netcoreapp3.1\DataLayer.pdb
+C:\dev\projects\BlogNetCore\PresentationLayer\obj\Debug\netcoreapp3.1\PresentationLayer.csprojAssemblyReference.cache
+C:\dev\projects\BlogNetCore\PresentationLayer\obj\Debug\netcoreapp3.1\PresentationLayer.AssemblyInfoInputs.cache
+C:\dev\projects\BlogNetCore\PresentationLayer\obj\Debug\netcoreapp3.1\PresentationLayer.AssemblyInfo.cs
+C:\dev\projects\BlogNetCore\PresentationLayer\obj\Debug\netcoreapp3.1\PresentationLayer.csproj.CopyComplete
+C:\dev\projects\BlogNetCore\PresentationLayer\obj\Debug\netcoreapp3.1\PresentationLayer.dll
+C:\dev\projects\BlogNetCore\PresentationLayer\obj\Debug\netcoreapp3.1\PresentationLayer.pdb
+C:\dev\projects\BlogNetCore\PresentationLayer\obj\Debug\netcoreapp3.1\PresentationLayer.csproj.CoreCompileInputs.cache

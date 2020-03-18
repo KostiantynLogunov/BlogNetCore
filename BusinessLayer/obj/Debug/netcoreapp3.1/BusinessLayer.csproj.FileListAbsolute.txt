@@ -9,3 +9,4 @@ C:\dev\projects\BlogNetCore\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.
 C:\dev\projects\BlogNetCore\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csproj.CopyComplete
 C:\dev\projects\BlogNetCore\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.dll
 C:\dev\projects\BlogNetCore\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.pdb
+C:\dev\projects\BlogNetCore\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csproj.CoreCompileInputs.cache

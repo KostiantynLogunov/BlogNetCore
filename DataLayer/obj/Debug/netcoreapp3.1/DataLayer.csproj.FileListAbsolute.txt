@@ -8,3 +8,5 @@ C:\dev\projects\BlogNetCore\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.runtimec
 C:\dev\projects\BlogNetCore\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.pdb
 C:\dev\projects\BlogNetCore\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.dll
 C:\dev\projects\BlogNetCore\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.pdb
+C:\dev\projects\BlogNetCore\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csproj.CoreCompileInputs.cache
+C:\dev\projects\BlogNetCore\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.genruntimeconfig.cache

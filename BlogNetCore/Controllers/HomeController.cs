@@ -3,11 +3,9 @@ using System.Diagnostics;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using BlogNetCore.Models;
-using DataLayer;
 using DataLayer.Entityes;
-using Microsoft.EntityFrameworkCore;
-using BusinessLayer.Interfaces;
 using BusinessLayer;
+using PresentationLayer;
 
 namespace BlogNetCore.Controllers
 {
@@ -21,11 +19,14 @@ namespace BlogNetCore.Controllers
 
         //third case about work with context db
         private DataManager _dataManager;
+
+        private ServicesManager _servicesManager;
         public HomeController(/*EFDBContext contex, IDirectorysRepository dirRep,*/ DataManager dataManager)
         {
            /* _contex = contex;
             _dirRep = dirRep;*/
             _dataManager = dataManager;
+            _servicesManager = new ServicesManager(_dataManager);
         }
 
         public IActionResult Index()

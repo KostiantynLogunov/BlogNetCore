@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogNetCore", "BlogNetCore.csproj", "{8EABE724-2B44-4019-914C-10167F1682B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogNetCore", "BlogNetCore.csproj", "{8EABE724-2B44-4019-914C-10167F1682B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "..\DataLayer\DataLayer.csproj", "{69346E7E-86B3-4991-AF07-E36CEACDA5F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLayer", "..\DataLayer\DataLayer.csproj", "{69346E7E-86B3-4991-AF07-E36CEACDA5F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "..\BusinessLayer\BusinessLayer.csproj", "{9034F1EE-D883-45B7-A468-A2B88F2A6BFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLayer", "..\BusinessLayer\BusinessLayer.csproj", "{9034F1EE-D883-45B7-A468-A2B88F2A6BFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentationLayer", "..\PresentationLayer\PresentationLayer.csproj", "{8593E76F-2BC4-484A-83CF-54BCF90DC9EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{9034F1EE-D883-45B7-A468-A2B88F2A6BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9034F1EE-D883-45B7-A468-A2B88F2A6BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9034F1EE-D883-45B7-A468-A2B88F2A6BFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8593E76F-2BC4-484A-83CF-54BCF90DC9EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8593E76F-2BC4-484A-83CF-54BCF90DC9EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8593E76F-2BC4-484A-83CF-54BCF90DC9EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8593E76F-2BC4-484A-83CF-54BCF90DC9EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
